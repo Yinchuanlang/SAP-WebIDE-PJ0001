@@ -1,0 +1,8 @@
+{
+  "PJ0001.YCL_DB::ZT001": {
+    "target": {
+      "object": "ZT001_SYTEM",
+      "schema": "SYSTEM"
+    }
+  }
+}

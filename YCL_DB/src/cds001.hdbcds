@@ -1,0 +1,22 @@
+namespace PJ0001.YCL_DB;
+
+/*using "PJ0001.TB001" as TB001;*/
+
+context cds001 {
+};
+
+/*@@layout{"layoutInfo":{"x":-508,"y":-11.5}}*/
+entity TB001 {
+    key ID   : Integer;
+        NAME : String(40);
+};
+
+/*@@layout{"layoutInfo":{"x":-508,"y":-99.5}}*/
+view V001 as
+    select from TB001
+    {
+        ID,
+        NAME
+    }
+    where
+        TB001.ID < 5;

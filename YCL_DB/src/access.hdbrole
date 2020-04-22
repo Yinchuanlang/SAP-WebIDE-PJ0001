@@ -1,0 +1,25 @@
+{
+	"role":{
+		"name": "PJ0001.YCL_DB::admin#",
+		"schema_privileges": [{
+		   "privileges": ["SELECT METADATA", 
+		    			  "SELECT CDS METADATA", 
+		    			  "SELECT", 
+		    			  "INSERT", 
+		    			  "EXECUTE", 
+		    			  "DELETE", 
+		    			  "UPDATE", 
+		    			  "CREATE TEMPORARY TABLE"
+		   ]
+		}],
+		
+		"object_privileges":[
+			{
+				"name": "PJ0001.YCL_DB::TB001",
+				"type": "TABLE",
+				"privileges_with_grant_option" : [ "SELECT" ]
+			}
+		
+		]
+	}
+}
